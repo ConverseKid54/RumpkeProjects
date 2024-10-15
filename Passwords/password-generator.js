@@ -10,7 +10,7 @@ function generateEasyPassword(length = 8) {
     const specialChars = "!@#$%^&*()_+";
     const special = specialChars[Math.floor(Math.random() * specialChars.length)];
 
-    // Construct the password
+    // Construct the passwords
     const password = `${randomWord1}${number}${special}${randomWord2}`;
     
     return password.slice(0, length); // Ensure it fits the desired length
