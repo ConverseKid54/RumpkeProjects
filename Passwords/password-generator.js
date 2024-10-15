@@ -1,6 +1,6 @@
 function generateEasyPassword(length = 8) {
     if (length < 8) {
-        throw new Error("Password length must be at least 8 characters.");
+        throw new Error("Password length must be at least 8 characters. :)");
     }
 
     const words = ["Sun", "Moon", "Star", "Sky", "Tree", "Leaf"];
